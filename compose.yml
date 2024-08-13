@@ -1,0 +1,6 @@
+services:
+  python:
+    build: .
+    command: python3 ./earthquake.py
+    volumes:
+      - .:/app
