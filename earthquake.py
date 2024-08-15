@@ -84,7 +84,7 @@ plugins.TimestampedGeoJson(
 ).add_to(m)
 
 # 地図を保存
-m.save('earthquake_animation.html')
+m.save('index.html')
 
 
 # 図を表示
